@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>كلية تربية جامعة دمياط</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- ICONSCOUT CDN -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800&family=Farsan&family=Lemonada:wght@300..700&family=Oswald&family=Work+Sans&display=swap"
+        rel="stylesheet">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav>
+        <div class="container nav_container">
+
+            <button id="open-menu-btn"><i class="fa-solid fa-bars"></i></button>
+            <button id="close-menu-btn"><i class="fa-solid fa-x"></i></button>
+
+            <a href="index.html">
+                <h4>كلية تربية <br> <span style="color:#f75842; font-size: .5rem;">نحو مستقبل أفضل</span></h4>
+            </a>
+            <ul class="nav_menu">
+                <li><a href="#header1">جامعة دمياط</a></li>
+                <li><a href="#header">كلية تربية</a></li>
+                <li><a href="#category">أقسام الكلية</a></li>
+                <li><a href="#footer_4">تواصل معنا</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- ====header1===== -->
+    <!-- carousel -->
+    <div class="carousel">
+        <!-- list item -->
+        <div class="list">
+            <div class="item">
+                <img src="./images/img1 (2).jpg">
+                <div class="content">
+                    <div class="title">جامعة دمياط</div>
+                    <div class="des">
+                        تتطلع جامعة دمياط في السنوات القادمة إلى ارتقاء مكانة متميزة في التعليم والبحث العلمي، والريادة في تقديم خدمات مهنية وفنية متخصصة لمختلف قطاعات المجتمع.
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="item">
+                <img src="./images/img2 (2).jpg">
+                <div class="content">
+                    <div class="title">رسالة الجامعة</div>
+                    <div class="des">
+                        تسعى جامعة دمياط لتقديم برامج تعليمية متنوعة وخدمات بحثية ومجتمعية ذات جودة عالية طبقًا لمعايير الجودة القومية لإعداد خريج متميز ذي قدرة تنافسية للإسهام في التنمية المستدامة للمجتمع في إطار القيم الأخلاقية والجامعية والحفاظ على الهوية الوطنية.
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./images/img3.jpg">
+                <div class="content">
+                    <div class="title">اهداف الجامعة</div>
+                    <div class="des">
+                        استكمال تشييد الجامعة
+                        استحداث كليات وبرامج جديدة وتطوير البرامج التعليمية الحالية طبقًا لمعايير الجودة .
+                        تطوير برامج الدراسات العليا والبحث العلمي بما يحقق طموحات المستفيدين والمجتمع المحيط
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- <div class="item">
+                <img src="./images/img4.jpg">
+                <div class="content">
+                    <div class="title">DESIGN SLIDER</div>
+                    <div class="des">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
+                    </div>
+                </div>
+            </div> -->
+        </div>
+        <!-- list thumnail -->
+        <div class="thumbnail">
+            <div class="item">
+                <img src="./images/img1 (2).jpg">
+            </div>
+            <div class="item">
+                <img src="./images/img2 (2).jpg">
+            </div>
+            <div class="item">
+                <img src="./images/img3.jpg">
+            </div>
+            <!-- <div class="item">
+                <img src="./images/img4.jpg">
+            </div> -->
+        </div>
+        <!-- next prev -->
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        <!-- time running -->
+        <div class="time"></div>
+    </div>
+    <!-- header -->
+    <header id="header">
+        <div class="container header_container">
+            <div class="header_right">
+                <h1>كلية تربية <br> <span style="font-size: 5px; line-height: 1.5;">نحو مستقبل أفضل </span></h1>
+                <p>
+                    تعد كلية التربية هي الكلية الأم التي أنشئت في فترة السبعينات من القرن الماضي، ومنوط بها إعداد المعلم
+                    اعداداً تربوياً ومهنياً وأكاديمياً في ضوء التطور المعلوماتي والتقني من خلال ما توفره الكلية من
+                    برامجها الأكاديمية المتعددة التي تلبي احتياجات المجتمع المحلى من التخصصات الأكاديمية المختلفة وتسعى
+                    الكلية الى تطوير براجعها في ضوء المعايير القومية بما يضمن تحسين نواتج التعلم المختلفة وبما يضمن أن
+                    يكون مواصفات خريج الكلية تتسق مع متغيرات سوق العمل متلاحقة التغيير. كما تهدف الكلية إلى تنمية البحث
+                    العلمي من خلال ما تقدمه من درجات علمية من دبلومات و درجتي الماجستير والدكتوراه في تخصصات تربوية
+                    مختلفة تساهم في حل المشكلات التعليمية.
+                </p>
+                <a href="https://edu.du.edu.eg/" class="btn btn-primary">معرفة المزيد</a>
+            </div>
+            <div class="header_left">
+                <div class="header__left-image">
+                    <img src="./images/كلية تربية.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- category -->
+
+
+    <div class="mainContainer">
+        <section class="categories" id="category">
+            <div class="container categories_container">
+
+                <div class="categories_left">
+                    <h1>أقسام الكلية</h1>
+                    <p>تحتوى كلية تربية جامعة دمياط على 5 أقسام أساسية</p>
+                    <!-- <a href="https://edu.du.edu.eg/Unit/Details/37" class="btn">قراءة المزيد</a> -->
+                    <a href="https://edu.du.edu.eg/" class="btn">قراءة المزيد</a>
+                </div>
+
+                <div class="categories_right">
+
+                    <article class="category">
+                        <h5>أصول التربية</h5>
+                        <p>يعد قسم أصول التربية القسم الأقدم بكلية التربية جامعة دمياط، مذ نشأتها عام 1976م،
+                            ويعد قسم أصول التربية عماد الكلية وأساسها والذي من خلاله تستمد الكلية فلسفتها التربوية،
+                            وترسم خطط المستقبل المأمول نحو ملاحقة القرن الحادي والعشرين بتجلياته وتحدياته</p>
+                    </article>
+
+
+                    <article class="category">
+                        <h5>قسم رياض الأطفال</h5>
+                        <p>إعداد معلمات متميزات في مجال رياض الأطفال علي الوفاء بمسئولياته الجسيمة
+                            في إعداد جيل قادم وذلك لتحقيق الجودة والتميز بتوفير بيئة تعليمية متميزة</p>
+                    </article>
+
+
+                    <article class="category">
+                        <h5>قسم المناهج وطرق التدريس</h5>
+                        <p> إعداد المعلمين للعمل بالمؤسسات التعليمية في المراحل الدراسية المختلفة ، رفع كفاءة المعلمين
+                            أثناء الخدمة
+                            ، وإجراء البحوث التربوية وعقد المؤتمرات والندوات والدورات ، وتقديم الاستشارات للمؤسسات
+                            التربوية .</p>
+                    </article>
+
+
+                    <article class="category cat_1">
+                        <h5>قسم علم النفس التربوي والصحة النفسية</h5>
+                        <p>
+                            إعداد الكوادر العلمية فى مجال علم النفس من معلمين ومرشدين وأخصائيين وباحثين، وتشجيع البحوث
+                            العلمية فى المجالات النفسية والاجتماعية، وتوفير الخدمات والاستشارات النفسية والاجتماعية
+                            للطلبة وأفراد المجتمع
+                        </p>
+                    </article>
+
+
+                    <article class="category cat_2">
+                        <h5>قسم تكنولوجيا التعليم</h5>
+                        <p>
+                            إعداد قوي بشرية وقيادات علمية فادرة علي أن تساهم في تطوير مجال تكنولوجيا التعليم ودمجها
+                            بفعالية في بيئات التعليم والتعلم والتدريب من خلال التخطيط الاستراتيجي لبرامج القسم
+                            الأكاديمية ونشاطه البحثي وخدماته علي المستويات المحلية والإقليمية والعالمية
+                        </p>
+                    </article>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- =============projects============= -->
+        <section class="courses" id="courses">
+
+            <h2>مشاريع القسم</h2>
+
+            <div class="container courses_container">
+
+                <article class="course">
+                    <div class="course_image">
+                        <img src="./images/صورة المجسم.png">
+                    </div>
+                    <div class="course_info">
+                        <h4>مجسم لكلية تربية</h4>
+                        <p>تنفيذ طلاب قسم تكنولوجيا التعليم</p>
+                        <a href="https://www.tinkercad.com/things/0dPyEBx481g" class="btn btn-primary">عرض</a>
+                    </div>
+                </article>
+
+                <article class="course">
+                    <div class="course_image">
+                        <img src="./images/المعرض.png">
+                    </div>
+                    <div class="course_info">
+                        <h4>معرض المستحدثات</h4>
+                        <p>تنفيذ طلاب قسم تكنولوجيا التعليم</p>
+                        <a href="./معرض المستحدثات/index.html" class="btn btn-primary">عرض</a>
+                    </div>
+                </article>
+
+                <article class="course">
+                    <div class="course_image">
+                        <img src="./images/المتحف.png">
+                    </div>
+                    <div class="course_info">
+                        <h4>متحف علماء الكلية</h4>
+                        <p>تنفيذ طلاب قسم تكنولوجيا التعليم</p>
+                        <a href="./المتحف/index.html" class="btn btn-primary">عرض</a>
+
+                    </div>
+                </article>
+
+                <article class="course">
+                    <div class="course_image">
+                        <img src="./images/القصة.png">
+                    </div>
+                    <div class="course_info">
+                        <h4>القصة الرقمية للكلية</h4>
+                        <p>تنفيذ طلاب قسم تكنولوجيا التعليم</p>
+                        <a href="./القصة الرقمية/index.html" class="btn btn-primary">عرض</a>
+                    </div>
+                </article>
+
+                <article class="course">
+                    <div class="course_image">
+                        <img src="./images/الكتاب.png">
+                    </div>
+                    <div class="course_info">
+                        <h4>الكتاب الالكترونى</h4>
+                        <p>تنفيذ طلاب قسم تكنولوجيا التعليم</p>
+                        <a href="./الكتاب/index.html" class="btn btn-primary">عرض</a>
+                    </div>
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- ========question======== -->
+
+        <section class="faqs">
+            <h2>أسئلة شائعة</h2>
+            <div class="container faqs_container">
+
+                <article class="faq">
+                    <div class="faq_icon"><i class="fa-solid fa-plus"></i></div>
+                    <div class="question_answer">
+                        <h4>ما هى الأهداف الإستراتيجية؟</h4>
+                        <p>
+                            1- تطوير البنية التحتية للكلية وتعظيم الإستفادة من مواردها المادية والبشرية. <br>
+
+                            2- تطوير البرامج الأكاديمية القائمة وفق معايير الهيئة القومية لضمان الجودة والاعتماد
+                            ومتطلبات سوق العمل علي مستوي مرحلتي البكالوريوس والليسانس والدراسات العليا. <br>
+
+                            3-تهيئة بيئة تعليمية نشطة صفية وغير صفية لتعظيم الاستفادة من إمكانيات الطلاب ومواهبهم. <br>
+
+                            4- تطوير منظومة البحث العلمي في ضوء توجيهات المنافسة والارتقاء بمخرجاتها الكيفية والكمية.
+                            <br>
+
+                            5-استحداث برامج أكاديمية جديدة تلبي احتياجات المجتمع وسوق العمل. <br>
+                        </p>
+                    </div>
+                </article>
+
+                <article class="faq">
+                    <div class="faq_icon"><i class="fa-solid fa-plus"></i></div>
+                    <div class="question_answer">
+                        <h4>ما هى رؤية الكلية</h4>
+                        <p>
+                            الوصول إلي الريادة والتميز علي مستوي كليات التربية في مصر من خلال خدمة تعليمية وتدريبية
+                            عصرية مميزة.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="faq">
+                    <div class="faq_icon"><i class="fa-solid fa-plus"></i></div>
+                    <div class="question_answer">
+                        <h4>ما هى رسالة الكلية</h4>
+                        <p>
+                            تقديم خدمة تعليمية مميزة بواسطة كوادر بشرية متخصصة تستهدف تزويد المجتمع بمخرجات في مجال
+                            ممارسة مهنة التدريس تأهيلاً وتدريباً وإعداداً وفق متطلبات سوق العمل وانسجاماً مع متطلبات
+                            التنمية المستدامة.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="faq">
+                    <div class="faq_icon"><i class="fa-solid fa-plus"></i></div>
+                    <div class="question_answer">
+                        <h4>من هم مسؤلى إدارة الكلية</h4>
+                        <p>
+                            عميد الكلية <br>
+                            أ.د / أماني محمد عبد العزيز عوض <br>
+
+                            وكيل الكلية لشئون خدمة المجتمع وتنمية البيئة <br>
+                            أ.د/ أماني محمد عبد العزيز عوض <br>
+
+                            وكيل الكلية لشئون الدراسات العليا والبحوث <br>
+                            أ.د/ مرفت حامد محمد هاني <br>
+
+                            وكيل الكلية لشئون التعليم والطلاب <br>
+                            أ.د/ محمد حسن أحمد جمعه <br>
+
+                            مدير عام الكلية <br>
+                            م/ حسام إبراهيم شقرية <br>
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+    </div>
+
+
+    <!-- ===================foooter==================== -->
+
+    <footer>
+        <div class="container footer_container">
+            <div class="footer_1">
+                <a class="footer_logo"><img style="width: 6rem; height: fit-content;" src="./images/logo1.png"
+                        alt=""></a>
+                <a class="footer_logo"><img style="width: 6rem; height:fit-content;" src="./images/logo2.png"
+                        alt=""></a>
+            </div>
+
+            <div class="footer_2">
+                <!-- <h4>PermaLinks</h4> -->
+                <ul class="PermaLinks">
+                    <li><a href="">جامعة دمياط</a></li>
+                    <li><a href="">كلية تربية</a></li>
+                    <li><a href="">أقسام الكلية</a></li>
+                    <li><a href="">من نحن</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_3">
+                <!-- <h4>Primacy</h4> -->
+                <ul class="Primacy">
+                    <li><a href="">سياسة الخصوصية</a></li>
+                    <li><a href="">الشروط و الاحكام</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_4" id="footer_4">
+                <h4>تواصل معنا</h4>
+                <div>
+                    <p>+01 *** *** ****</p>
+                    <p>khloudgama@gmail.com</p>
+                </div>
+
+                <ul class="footer_socials">
+                    <li>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="footer_copyright">
+            <small>copyright &copy; قسم تكنولوجيا التعليم</small>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
